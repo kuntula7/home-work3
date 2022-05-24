@@ -94,20 +94,21 @@ let factory = {
     }
     },
     formatArray : function (name) {
+        let agreementDuration = 5
         if(name == 'John'){
-        this.employees[0].timeLeft = this.employeeNum - this.employees[0].timeSpent;
+        this.employees[0].timeLeft = agreementDuration - this.employees[0].timeSpent;
         console.log(this.employees[0])}
         else if(name == 'Sam'){
-        this.employees[1].timeLeft = this.employeeNum - this.employees[1].timeSpent;
+        this.employees[1].timeLeft = agreementDuration - this.employees[1].timeSpent;
         console.log(this.employees[1])}
         if(name == 'Maria'){
-        this.employees[2].timeLeft = this.employeeNum - this.employees[2].timeSpent;
+        this.employees[2].timeLeft = agreementDuration - this.employees[2].timeSpent;
         console.log(this.employees[2])}
         if(name == 'Dan'){
-        this.employees[3].timeLeft = this.employeeNum - this.employees[3].timeSpent;
+        this.employees[3].timeLeft = agreementDuration - this.employees[3].timeSpent;
         console.log(this.employees[3])}
         if(name == 'Lorelai'){
-        this.employees[4].timeLeft = this.employeeNum - this.employees[4].timeSpent;
+        this.employees[4].timeLeft = agreementDuration - this.employees[4].timeSpent;
         console.log(this.employees[4])}
 }
 }
